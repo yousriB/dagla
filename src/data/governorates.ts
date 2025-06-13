@@ -1,0 +1,27 @@
+
+export const tunisianGovernorates = [
+  { value: "tunis", label: "تونس", labelFr: "Tunis" },
+  { value: "ariana", label: "أريانة", labelFr: "Ariana" },
+  { value: "ben-arous", label: "بن عروس", labelFr: "Ben Arous" },
+  { value: "manouba", label: "منوبة", labelFr: "Manouba" },
+  { value: "nabeul", label: "نابل", labelFr: "Nabeul" },
+  { value: "zaghouan", label: "زغوان", labelFr: "Zaghouan" },
+  { value: "bizerte", label: "بنزرت", labelFr: "Bizerte" },
+  { value: "beja", label: "باجة", labelFr: "Béja" },
+  { value: "jendouba", label: "جندوبة", labelFr: "Jendouba" },
+  { value: "kef", label: "الكاف", labelFr: "Le Kef" },
+  { value: "siliana", label: "سليانة", labelFr: "Siliana" },
+  { value: "sousse", label: "سوسة", labelFr: "Sousse" },
+  { value: "monastir", label: "المنستير", labelFr: "Monastir" },
+  { value: "mahdia", label: "المهدية", labelFr: "Mahdia" },
+  { value: "sfax", label: "صفاقس", labelFr: "Sfax" },
+  { value: "kairouan", label: "القيروان", labelFr: "Kairouan" },
+  { value: "kasserine", label: "القصرين", labelFr: "Kasserine" },
+  { value: "sidi-bouzid", label: "سيدي بوزيد", labelFr: "Sidi Bouzid" },
+  { value: "gabes", label: "قابس", labelFr: "Gabès" },
+  { value: "medenine", label: "مدنين", labelFr: "Médenine" },
+  { value: "tataouine", label: "تطاوين", labelFr: "Tataouine" },
+  { value: "gafsa", label: "قفصة", labelFr: "Gafsa" },
+  { value: "tozeur", label: "توزر", labelFr: "Tozeur" },
+  { value: "kebili", label: "قبلي", labelFr: "Kébili" }
+];
