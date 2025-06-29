@@ -52,8 +52,8 @@ const translations = {
     guaranteedQualityDesc: "جميع منتجاتنا مختارة بعناية من أفضل المزارع",
     safePackaging: "تغليف آمن",
     safePackagingDesc: "نضمن وصول التمور طازجة ونظيفة",
-    freeDelivery: "توصيل مجاني",
-    freeDeliveryDesc: "توصيل مجاني لجميع أنحاء تونس",
+    freeDelivery: "توصيل في 24-48 ساعة",
+    freeDeliveryDesc: "توصيل في 24-48 ساعة لجميع أنحاء تونس",
 
     // Product Detail
     productNotFound: "المنتج غير موجود",
@@ -61,7 +61,7 @@ const translations = {
     quantity: "الكمية",
     total: "المجموع",
     orderNow: "اطلب الآن مباشرة",
-    shippingInfo: "توصيل مجاني",
+    shippingInfo: "توصيل في 24-48 ساعة",
     paymentInfo: "دفع عند التسليم",
     qualityInfo: "جودة مضمونة",
     supportInfo: "دعم فني",
@@ -93,7 +93,7 @@ const translations = {
     paymentDelivery:
       "الدفع عند التسليم - التوصيل في كامل تراب الجمهورية التونسية",
     quickLinks: "روابط سريعة",
-    allRightsReserved: "جميع الحقوق محفوظة © 2024 تمور تونس الأصيلة",
+    allRightsReserved: "جميع الحقوق محفوظة © 2025 تمور تونس الأصيلة",
     tunisiaAddress: "تونس، تونس",
 
     // About Page
@@ -216,7 +216,7 @@ const translations = {
       "Paiement à la livraison - Livraison dans toute la Tunisie",
     quickLinks: "Liens Rapides",
     allRightsReserved:
-      "Tous droits réservés © 2024 Dattes Authentiques de Tunisie",
+      "Tous droits réservés © 2025 Dattes Authentiques de Tunisie",
     tunisiaAddress: "Tunis, Tunisie",
 
     // About Page

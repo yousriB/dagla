@@ -12,12 +12,7 @@ const About = () => {
       <section
         className="relative h-64 bg-cover bg-center flex items-center justify-center"
         style={{
-          backgroundImage: `url(${aboutImage})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundBlendMode: "overlay",
-          backgroundAttachment: "fixed",
+          backgroundImage: `url(https://media02.stockfood.com/largepreviews/MjIwMjEwOTUyMQ==/71035791-Camel-driver-in-the-Sahara-Douz-Kebili-Tunisia-North-Africa-Africa.jpg)`,
         }}
       >
         <div className="absolute inset-0 bg-black opacity-30"></div>

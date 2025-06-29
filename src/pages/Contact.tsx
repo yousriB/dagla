@@ -186,63 +186,6 @@ const Contact = () => {
                   </p>
                 </div>
               </div>
-
-              <div className="flex items-start space-x-4 space-x-reverse gap-4 p-6 bg-card rounded-xl shadow-lg hover:shadow-xl transition-shadow border border-border/50">
-                <div className="bg-gradient-to-br from-orange-100 to-amber-100 p-3 rounded-lg">
-                  <Clock className="h-6 w-6 text-orange-600" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-card-foreground mb-2 text-lg">
-                    {t("workingHours")}
-                  </h3>
-                  <p className="text-muted-foreground">
-                    {language === "ar"
-                      ? "الإثنين - الجمعة: 8:00 - 18:00"
-                      : "Lundi - Vendredi: 8:00 - 18:00"}
-                    <br />
-                    {language === "ar"
-                      ? "السبت: 9:00 - 15:00"
-                      : "Samedi: 9:00 - 15:00"}
-                    <br />
-                    {language === "ar" ? "الأحد: مغلق" : "Dimanche: Fermé"}
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Social Media */}
-            <div className="bg-card p-6 rounded-xl shadow-lg border border-border/50">
-              <h3 className="font-semibold text-card-foreground mb-4 text-lg">
-                {t("followUs")}
-              </h3>
-              <div className="flex space-x-4 space-x-reverse gap-4">
-                <a
-                  href="#"
-                  className="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-3 rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all transform hover:scale-105 shadow-lg"
-                  aria-label="Facebook"
-                >
-                  <svg
-                    className="h-5 w-5"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-                  </svg>
-                </a>
-                <a
-                  href="#"
-                  className="bg-gradient-to-r from-pink-600 to-purple-600 text-white p-3 rounded-lg hover:from-pink-700 hover:to-purple-700 transition-all transform hover:scale-105 shadow-lg"
-                  aria-label="Instagram"
-                >
-                  <svg
-                    className="h-5 w-5"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 6.62 5.367 11.987 11.988 11.987 6.62 0 11.987-5.367 11.987-11.987C24.014 5.367 18.637.001 12.017.001zM8.449 16.988c-1.297 0-2.448-.49-3.326-1.297C4.198 14.897 3.708 13.746 3.708 12.449s.49-2.448 1.297-3.326C5.802 8.198 6.953 7.708 8.25 7.708s2.448.49 3.326 1.297c.807.878 1.297 2.029 1.297 3.326s-.49 2.448-1.297 3.326c-.878.807-2.029 1.297-3.327 1.297z" />
-                  </svg>
-                </a>
-              </div>
             </div>
           </div>
 

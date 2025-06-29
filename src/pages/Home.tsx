@@ -17,12 +17,11 @@ const Home = () => {
       <section
         className="relative h-screen flex items-center justify-center bg-cover bg-center"
         style={{
-          background: `url(${heroImage})`,
+          background: `url(https://mubadarat-uicn.org/wp-content/uploads/2025/04/DJI_0003-scaled.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          backgroundAttachment: "fixed",
-          backgroundBlendMode: "overlay",
+          // backgroundAttachment: "fixed",
         }}
         dir="rtl"
       >
@@ -40,7 +39,7 @@ const Home = () => {
               size="lg"
               className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 text-lg rounded-md"
             >
-              <Link to="/products">{t("orderNow")} 🌴</Link>
+              <Link to="/products">{t("orderNow")} </Link>
             </Button>
             <Button
               asChild
