@@ -15,7 +15,7 @@ const About = () => {
           backgroundImage: `url(https://media02.stockfood.com/largepreviews/MjIwMjEwOTUyMQ==/71035791-Camel-driver-in-the-Sahara-Douz-Kebili-Tunisia-North-Africa-Africa.jpg)`,
         }}
       >
-        <div className="absolute inset-0 bg-black opacity-30"></div>
+        <div className="absolute inset-0 bg-black opacity-40"></div>
         <div className="text-center text-white z-10">
           <h1 className="text-4xl font-bold mb-2">{t("ourStory")}</h1>
           <p className="text-xl opacity-90">{t("heritageSubtitle")}</p>
